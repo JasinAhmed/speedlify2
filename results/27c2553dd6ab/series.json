@@ -1,0 +1,3 @@
+{"version":1,"url":"https://prologgnext.netlify.app/","updated":"2026-11-21T14:11:24.227Z","points":[
+{"t":1795270228201,"lh":"13.6.0","performance":99,"accessibility":96,"best-practices":100,"seo":100,"lcp":1750,"cls":0.011,"tbt":69,"fcp":1041,"si":1041,"ttfb":625,"total":798036,"requests":28,"bytes":0,"mainThreadMs":0,"unusedJsBytes":51814,"unusedCssBytes":0,"mainThreadTotal":1591.7,"longTasks":4,"elements":223,"failingCount":1,"failingNodes":1,"axeViolations":1,"axePasses":422,"bench":1704.5,"runs":3,"reqRuns":3,"ms":55913,"spread":0}
+]}

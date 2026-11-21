@@ -1,0 +1,3 @@
+{"version":1,"url":"https://prologglaw.netlify.app/","updated":"2026-11-21T14:10:28.197Z","points":[
+{"t":1795270173426,"lh":"13.6.0","performance":95,"accessibility":96,"best-practices":100,"seo":83,"lcp":1682,"cls":0.135,"tbt":40,"fcp":1050,"si":1234,"ttfb":632,"total":731087,"requests":32,"bytes":0,"mainThreadMs":0,"unusedJsBytes":0,"unusedCssBytes":0,"mainThreadTotal":1402.8,"longTasks":3,"elements":219,"failingCount":1,"failingNodes":1,"axeViolations":1,"axePasses":418,"bench":1757.5,"runs":3,"reqRuns":3,"ms":54649,"spread":5}
+]}
