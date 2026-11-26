@@ -1,0 +1,22 @@
+{
+  "url": "https://prologglaw.netlify.app/",
+  "name": "Prologg (SvelteKit)",
+  "group": "prologg",
+  "groupName": "Prologg: 11ty vs SvelteKit vs Next.js vs Enhance",
+  "timestamp": 1795628458228,
+  "date": "2026-11-25T17:40:58.228Z",
+  "runId": "2026-11-25T17-38-49-062Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 0,
+  "durationMs": 1773725,
+  "error": "lighthouse timed out after 120000ms",
+  "errors": [
+    "Protocol error (Page.enable): Protocol error (Page.enable): Session closed. Most likely the page has been closed.",
+    "Connection closed.",
+    "lighthouse timed out after 120000ms"
+  ],
+  "field": null,
+  "axe": null,
+  "consecutiveFailures": 1
+}

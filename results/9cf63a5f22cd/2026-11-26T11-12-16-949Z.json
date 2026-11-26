@@ -1,0 +1,309 @@
+{
+  "url": "https://prologgenhance.netlify.app/",
+  "name": "Prologg (Enhance)",
+  "group": "prologg",
+  "groupName": "Prologg: 11ty vs SvelteKit vs Next.js vs Enhance",
+  "timestamp": 1795691536949,
+  "date": "2026-11-26T11:12:16.949Z",
+  "runId": "2026-11-26T11-12-16-369Z",
+  "formFactor": "desktop",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 53497,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://prologgenhance.netlify.app/",
+    "finalUrl": "https://prologgenhance.netlify.app/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 91,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 343,
+      "lcp": 764,
+      "si": 417,
+      "tbt": 0,
+      "tti": 764,
+      "cls": 0.006,
+      "ttfb": 204,
+      "maxPotentialFid": 85,
+      "serverResponseTime": 106,
+      "networkRtt": 0.1,
+      "networkServerLatency": 44.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 109.6,
+      "resourceLoadDelay": 12.1,
+      "resourceLoadDuration": 36.2,
+      "elementRenderDelay": 252.2
+    },
+    "weight": {
+      "total": 651756,
+      "requests": 20,
+      "mainDocument": 9425,
+      "byType": {
+        "total": {
+          "bytes": 651756,
+          "requests": 16
+        },
+        "font": {
+          "bytes": 571380,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 55439,
+          "requests": 9
+        },
+        "script": {
+          "bytes": 11209,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 9425,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 2520,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 1783,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 1,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 385.3,
+      "byGroup": {
+        "styleLayout": 252.9,
+        "other": 87.5,
+        "scriptEvaluation": 17.5,
+        "paintCompositeRender": 14.8,
+        "parseHTML": 9,
+        "scriptParseCompile": 3.7
+      },
+      "bootupMs": 7.7,
+      "longTasks": 1,
+      "longestTaskMs": 85
+    },
+    "dom": {
+      "elements": 249,
+      "depth": 12,
+      "maxChildren": 10
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 11115.591666666667,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 26,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 8,
+      "failing": [
+        {
+          "id": "hreflang",
+          "title": "Document doesn't have a valid `hreflang`",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 22
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 1254.5,
+      "formFactor": "desktop",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "fetchTime": "2026-11-26T11:12:40.901Z",
+      "runtimeMs": 9101.5
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 45,
+    "resourceLoadDelay": 15.3,
+    "resourceLoadDuration": 93.9,
+    "elementRenderDelay": 148.6
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M8BRY9YVWA7XD7ZSRQ9T1Y9S"
+    },
+    "violations": 2,
+    "passes": 465,
+    "incomplete": 2,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".desktop-nav > lang-toggle > .toggle[aria-label=\"Switch to English\"][href$=\"en/\"]",
+            "snippet": "<a class=\"toggle\" href=\"/en/\" hreflang=\"en\" aria-label=\"Switch to English\"> <span class=\"current\">NL</span> <span class=\"\">EN</span> </a>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".desktop-nav",
+            "snippet": "<nav class=\"desktop-nav\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "20444fe53588",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "632",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535368",
+          "etag": "W/\"50b356b9a337e1008b37e6d7a3fe3aa8-ssl\""
+        }
+      },
+      {
+        "hash": "20444fe53588",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "642",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535358",
+          "etag": "W/\"50b356b9a337e1008b37e6d7a3fe3aa8-ssl\""
+        }
+      },
+      {
+        "hash": "20444fe53588",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "652",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535348",
+          "etag": "W/\"50b356b9a337e1008b37e6d7a3fe3aa8-ssl\""
+        }
+      },
+      {
+        "hash": "20444fe53588",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "662",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535338",
+          "etag": "W/\"50b356b9a337e1008b37e6d7a3fe3aa8-ssl\""
+        }
+      },
+      {
+        "hash": "20444fe53588",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535322",
+          "etag": "W/\"50b356b9a337e1008b37e6d7a3fe3aa8-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

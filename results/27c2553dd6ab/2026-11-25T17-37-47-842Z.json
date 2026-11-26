@@ -1,0 +1,253 @@
+{
+  "url": "https://prologgnext.netlify.app/",
+  "name": "Prologg (Next.js / React)",
+  "group": "prologg",
+  "groupName": "Prologg: 11ty vs SvelteKit vs Next.js vs Enhance",
+  "timestamp": 1795628267842,
+  "date": "2026-11-25T17:37:47.842Z",
+  "runId": "2026-11-25T17-34-42-329Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 56071,
+  "error": null,
+  "variance": {
+    "min": 97,
+    "max": 98,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://prologgnext.netlify.app/",
+    "finalUrl": "https://prologgnext.netlify.app/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 97,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1150,
+      "lcp": 1845,
+      "si": 2177,
+      "tbt": 176,
+      "tti": 4565,
+      "cls": 0.003,
+      "ttfb": 720,
+      "maxPotentialFid": 260,
+      "serverResponseTime": 542,
+      "networkRtt": 12.4,
+      "networkServerLatency": 120.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 582,
+      "resourceLoadDelay": 16.6,
+      "resourceLoadDuration": 117.7,
+      "elementRenderDelay": 254.7
+    },
+    "weight": {
+      "total": 798782,
+      "requests": 28,
+      "mainDocument": 8074,
+      "byType": {
+        "total": {
+          "bytes": 798782,
+          "requests": 24
+        },
+        "font": {
+          "bytes": 572155,
+          "requests": 3
+        },
+        "script": {
+          "bytes": 145567,
+          "requests": 7
+        },
+        "image": {
+          "bytes": 55683,
+          "requests": 9
+        },
+        "other": {
+          "bytes": 11897,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 8074,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 5406,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 7,
+      "stylesheets": 2,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 1843.5,
+      "byGroup": {
+        "styleLayout": 797.1,
+        "scriptEvaluation": 467,
+        "other": 393.2,
+        "paintCompositeRender": 83.6,
+        "scriptParseCompile": 75.3,
+        "parseHTML": 27.3
+      },
+      "bootupMs": 495.1,
+      "longTasks": 5,
+      "longestTaskMs": 260
+    },
+    "dom": {
+      "elements": 223,
+      "depth": 9,
+      "maxChildren": 11
+    },
+    "waste": {
+      "unusedJsBytes": 52876,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 13301,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 11114.6,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 27,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 29
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 1194.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T17:37:49.422Z",
+      "runtimeMs": 10862.9
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 673.7,
+    "resourceLoadDelay": 0,
+    "resourceLoadDuration": 657.7,
+    "elementRenderDelay": 1108.1
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": null,
+    "interstitial": null,
+    "host": null,
+    "headers": {},
+    "violations": null,
+    "passes": null,
+    "incomplete": null,
+    "violationRules": null,
+    "version": null,
+    "top": [],
+    "error": "Failed to fetch browser webSocket URL from http://127.0.0.1:49937/json/version: fetch failed"
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "a0093391b9ac",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "2",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"a83acfadb1d56a807c147a9139fd3cb9-ssl\""
+        }
+      },
+      {
+        "hash": "a0093391b9ac",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "12",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535989",
+          "etag": "W/\"a83acfadb1d56a807c147a9139fd3cb9-ssl\""
+        }
+      },
+      {
+        "hash": "a0093391b9ac",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "22",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535979",
+          "etag": "W/\"a83acfadb1d56a807c147a9139fd3cb9-ssl\""
+        }
+      },
+      {
+        "hash": "a0093391b9ac",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "31",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535970",
+          "etag": "W/\"a83acfadb1d56a807c147a9139fd3cb9-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

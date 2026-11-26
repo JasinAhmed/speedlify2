@@ -50,13 +50,14 @@ export default {
 
 	groups: {
 		prologg: {
-			name: "Prologg: 11ty vs SvelteKit vs Next.js",
+			name: "Prologg: 11ty vs SvelteKit vs Next.js vs Enhance",
 			enabled: true,
-			description: "Dezelfde site, gebouwd in drie verschillende stacks.",
+			description: "Dezelfde site, gebouwd in vier verschillende stacks.",
 			sites: [
 				{ name: "Prologg (11ty)", url: "https://prologg11ty.netlify.app/" },
 				{ name: "Prologg (SvelteKit)", url: "https://prologglaw.netlify.app/" },
 				{ name: "Prologg (Next.js / React)", url: "https://prologgnext.netlify.app/" },
+				{ name: "Prologg (Enhance)", url: "https://prologgenhance.netlify.app/" },
 			],
 		},
 	},
